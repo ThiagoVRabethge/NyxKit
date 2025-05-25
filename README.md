@@ -41,3 +41,7 @@ Construída sobre o SQLAlchemy, ela tem como objetivo detectar diferenças entre
 1. Início via linha de comando
 
 2. Sistema de Logs
+
+3. seeds
+
+4. recuperação de senha/dois fatores/restante de auth
