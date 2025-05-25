@@ -10,6 +10,12 @@ Seu principal objetivo é ser extremamente simples, permitindo que o desenvolved
 
 A estrutura do projeto segue a arquitetura baseada em funcionalidades (Feature-Based Architecture), utilizando o UV como gerenciador de dependências, Uvicorn como servidor ASGI, SQLModel como ORM e FastAPI para a construção dos endpoints
 
+### Watchmen
+
+uma mini-biblioteca experimental incluída no projeto. 
+
+Construída sobre o SQLAlchemy, ela tem como objetivo detectar diferenças entre as Models do projeto e a estrutura real do banco de dados, facilitando a automação de migrações
+
 ## Iniciando
 
 ``~ git clone https://github.com/ThiagoVRabethge/NyxKit``
@@ -27,6 +33,8 @@ A estrutura do projeto segue a arquitetura baseada em funcionalidades (Feature-B
 ``SECRET=``
 
 ``ALGORITHM=``
+
+``DIALECTICS=``
 
 ## Próximas funcionalidades
 
